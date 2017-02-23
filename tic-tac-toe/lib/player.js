@@ -1,4 +1,4 @@
-module.exports = function(name, marker){
+module.exports = function (name, marker) {
 
   /*
    * set the name of the player
@@ -6,9 +6,9 @@ module.exports = function(name, marker){
    * @method setName
    * @param {String} newName
    */
-  this.setName = function (newName){
+  this.setName = function (newName) {
     name = newName;
-  }
+  };
 
   /*
    * get the name of the player
@@ -16,9 +16,9 @@ module.exports = function(name, marker){
    * @method getName
    * @return {String}
    */
-  this.getName = function (){
+  this.getName = function () {
     return name;
-  }
+  };
 
   /*
    * set the marker of the player
@@ -26,9 +26,9 @@ module.exports = function(name, marker){
    * @method setMarker
    * @param {String} newMarker
    */
-  this.setMarker = function (newMarker){
+  this.setMarker = function (newMarker) {
     marker = newMarker;
-  }
+  };
 
   /*
    * get the marker of the player
@@ -36,7 +36,7 @@ module.exports = function(name, marker){
    * @method getMarker
    * @return {String}
    */
-  this.getMarker = function (){
+  this.getMarker = function () {
     return marker;
-  }
-}
+  };
+};
