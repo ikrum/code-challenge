@@ -1,3 +1,4 @@
 tic-tac-toe/node_modules
 task-manager/node_modules
 task-manager/bower_components
+*.log
