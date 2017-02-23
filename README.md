@@ -34,7 +34,7 @@ sudo npm install serve -g
 // run the App
 serve
 
-// now check http://localhost:3000
+// Please visit http://localhost:3000 and try this out.
 ```
 
 ![ScreenShot](https://raw.githubusercontent.com/ikrum/code-challenge/master/screenshot.png)
